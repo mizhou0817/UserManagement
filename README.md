@@ -88,6 +88,7 @@ Response:
 ```sh
 [{"id":1,"name":"Mi","email":"mizhou0817@outlook.com","age":28},{"id":2,"name":"Mi","email":"mizhou0817@gmail.com","age":20},{"id":3,"name":"Sisi","email":"sisi0422@outlook.com","age":24}]
 ```
+ \
 
 ```sh
 curl -X GET 'http://localhost:8080/users?sortBy=asc'
@@ -96,6 +97,7 @@ Response:
 ```sh
 [{"id":2,"name":"Mi","email":"mizhou0817@gmail.com","age":20},{"id":1,"name":"Mi","email":"mizhou0817@outlook.com","age":28},{"id":3,"name":"Sisi","email":"sisi0422@outlook.com","age":24}]
 ```
+ \
 
 ```sh
 curl -X GET 'http://localhost:8080/users?sortBy=desc'
