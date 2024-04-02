@@ -78,7 +78,7 @@ Response:
 {"id":1,"message":"User updated successfully. Total rows/record affected 1"}
 ```
 
-### Get ALl User
+### Get ALL User
 This endpoint retrieves all users' information.  
 Sends a `GET` request to `api_endpoint/users`:
 ```sh
@@ -88,7 +88,7 @@ Response:
 ```sh
 [{"id":1,"name":"Mi","email":"mizhou0817@outlook.com","age":28},{"id":2,"name":"Mi","email":"mizhou0817@gmail.com","age":20},{"id":3,"name":"Sisi","email":"sisi0422@outlook.com","age":24}]
 ```
-
+ 
 Sends a `GET` request to `api_endpoint/users` with specifying asceding order:
 ```sh
 curl -X GET 'http://localhost:8080/users?sortBy=asc'
@@ -97,7 +97,7 @@ Response:
 ```sh
 [{"id":2,"name":"Mi","email":"mizhou0817@gmail.com","age":20},{"id":1,"name":"Mi","email":"mizhou0817@outlook.com","age":28},{"id":3,"name":"Sisi","email":"sisi0422@outlook.com","age":24}]
 ```
-
+ 
 Sends a `GET` request to `api_endpoint/users` with specifying descending order:
 ```sh
 curl -X GET 'http://localhost:8080/users?sortBy=desc'
